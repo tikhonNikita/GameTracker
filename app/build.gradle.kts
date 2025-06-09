@@ -1,3 +1,6 @@
+import java.util.Properties
+import java.io.FileInputStream
+
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
@@ -7,6 +10,19 @@ android {
     namespace = "com.example.gametracker"
     compileSdk = 35
 
+    buildFeatures {
+        buildConfig = true
+    }
+
+
+    val localProperties = Properties()
+    val localPropertiesFile = file("../local.properties")
+    if (localPropertiesFile.exists()) {
+        FileInputStream(localPropertiesFile).use {
+            localProperties.load(it)
+        }
+    }
+
     defaultConfig {
         applicationId = "com.example.gametracker"
         minSdk = 26
@@ -15,6 +31,14 @@ android {
         versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+
+
+        buildConfigField(
+            "String",
+            "RAWG_API_KEY",
+            localProperties.getProperty("rawg.api.key")
+        )
+
     }
 
     buildTypes {
