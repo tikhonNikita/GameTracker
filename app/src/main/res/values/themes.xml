@@ -1,33 +1,33 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
+
     <style name="Base.Theme.GameTracker" parent="Theme.Material3.DayNight.NoActionBar">
         <item name="colorPrimary">@color/brand_yellow</item>
         <item name="colorOnPrimary">@color/black</item>
         <item name="android:colorBackground">@color/light_background</item>
         <item name="colorSurface">@color/light_surface</item>
-
         <item name="colorOnBackground">@color/black</item>
         <item name="colorOnSurface">@color/black</item>
         <item name="colorOnSurfaceVariant">@color/medium_grey_text</item>
     </style>
 
+    <style name="Theme.GameTracker" parent="Base.Theme.GameTracker" />
+
     <style name="TextAppearance.GameTracker.TitleMedium" parent="TextAppearance.Material3.TitleMedium">
+        <item name="fontFamily">@font/raleway</item>
         <item name="android:fontFamily">@font/raleway</item>
-        <item name="android:fontWeight">400</item>
         <item name="android:textColor">?attr/colorOnSurface</item>
     </style>
 
     <style name="TextAppearance.GameTracker.BodyLarge" parent="TextAppearance.Material3.BodyLarge">
+        <item name="fontFamily">@font/raleway</item>
         <item name="android:fontFamily">@font/raleway</item>
-        <item name="android:fontWeight">400</item>
         <item name="android:textColor">?attr/colorOnSurfaceVariant</item>
     </style>
 
     <style name="TextAppearance.GameTracker.LabelSmall" parent="TextAppearance.Material3.LabelSmall">
+        <item name="fontFamily">@font/raleway</item>
         <item name="android:fontFamily">@font/raleway</item>
-        <item name="android:fontWeight">500</item>
         <item name="android:textColor">?attr/colorOnSurfaceVariant</item>
     </style>
 
-    <style name="Theme.GameTracker" parent="Base.Theme.GameTracker" />
 </resources>
