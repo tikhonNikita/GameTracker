@@ -12,21 +12,21 @@
 
     <style name="Theme.GameTracker" parent="Base.Theme.GameTracker" />
 
-    <style name="TextAppearance.GameTracker.TitleMedium" parent="TextAppearance.Material3.TitleMedium">
+    <style name="TextAppearance.Title.Medium" parent="TextAppearance.Material3.TitleMedium">
         <item name="fontFamily">@font/raleway</item>
         <item name="android:fontFamily">@font/raleway</item>
         <item name="android:textColor">?attr/colorOnSurface</item>
         <item name="fontVariationSettings">"'wght' 500"</item>
     </style>
 
-    <style name="TextAppearance.GameTracker.BodyLarge" parent="TextAppearance.Material3.BodyLarge">
+    <style name="TextAppearance.Body.Large" parent="TextAppearance.Material3.BodyLarge">
         <item name="fontFamily">@font/raleway</item>
         <item name="android:fontFamily">@font/raleway</item>
         <item name="android:textColor">?attr/colorOnSurfaceVariant</item>
         <item name="fontVariationSettings">"'wght' 400"</item>
     </style>
 
-    <style name="TextAppearance.GameTracker.LabelSmall" parent="TextAppearance.Material3.LabelSmall">
+    <style name="TextAppearance.Label.Small" parent="TextAppearance.Material3.LabelSmall">
         <item name="fontFamily">@font/raleway</item>
         <item name="android:fontFamily">@font/raleway</item>
         <item name="android:textColor">?attr/colorOnSurfaceVariant</item>

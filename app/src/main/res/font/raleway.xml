@@ -2,10 +2,8 @@
 <font-family xmlns:app="http://schemas.android.com/apk/res-auto">
     <font
         app:font="@font/raleway_regular"
-        app:fontStyle="normal"
-        app:fontWeight="400" />
+        app:fontStyle="normal" />
     <font
         app:font="@font/raleway_italic"
-        app:fontStyle="italic"
-        app:fontWeight="400" />
+        app:fontStyle="italic" />
 </font-family>
