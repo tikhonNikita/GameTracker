@@ -30,7 +30,7 @@
         <item name="fontFamily">@font/raleway</item>
         <item name="android:fontFamily">@font/raleway</item>
         <item name="android:textColor">?attr/colorOnSurfaceVariant</item>
-        <item name="fontVariationSettings">"'wght' 400"</item>
+        <item name="fontVariationSettings">"'wght' 500"</item>
     </style>
 
 </resources>
