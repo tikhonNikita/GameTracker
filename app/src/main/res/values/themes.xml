@@ -1,5 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
 
+
     <style name="Base.Theme.GameTracker" parent="Theme.Material3.DayNight.NoActionBar">
         <item name="colorPrimary">@color/brand_yellow</item>
         <item name="colorOnPrimary">@color/black</item>
@@ -8,6 +9,7 @@
         <item name="colorOnBackground">@color/black</item>
         <item name="colorOnSurface">@color/black</item>
         <item name="colorOnSurfaceVariant">@color/medium_grey_text</item>
+        <item name="android:textViewStyle">@style/TextAppearance.Body.Medium</item>
     </style>
 
     <style name="Theme.GameTracker" parent="Base.Theme.GameTracker" />
@@ -26,11 +28,19 @@
         <item name="fontVariationSettings">"'wght' 400"</item>
     </style>
 
+    <style name="TextAppearance.Body.Medium" parent="TextAppearance.Material3.BodyMedium">
+        <item name="fontFamily">@font/raleway</item>
+        <item name="android:fontFamily">@font/raleway</item>
+        <item name="android:textColor">?attr/colorOnSurfaceVariant</item>
+        <item name="fontVariationSettings">"'wght' 400"</item>
+    </style>
+
     <style name="TextAppearance.Label.Small" parent="TextAppearance.Material3.LabelSmall">
         <item name="fontFamily">@font/raleway</item>
         <item name="android:fontFamily">@font/raleway</item>
         <item name="android:textColor">?attr/colorOnSurfaceVariant</item>
         <item name="fontVariationSettings">"'wght' 500"</item>
     </style>
+
 
 </resources>
